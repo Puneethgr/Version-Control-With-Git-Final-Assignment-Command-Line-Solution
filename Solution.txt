@@ -1,0 +1,98 @@
+mkdir finalassignment
+cd finalassignment
+git init
+echo "Initial read me file" >> README.md
+git add README.md
+git commit -m "add README.md"
+git log --oneline --graph
+git checkout -b develop
+git log --oneline --graph
+touch fileA.txt
+git add fileA.txt
+git commit -m "add fileA.txt"
+git log --oneline --graph
+git checkout -b feature1
+git log --oneline --graph
+echo "feature 1 wip" > fileA.txt
+git add fileA.txt
+git commit -m "add feature 1 wip"
+git log --oneline --graph
+sed -i "1s/.*/feature 1 with 2 bugs/" fileA.txt
+cat fileA.txt
+git add fileA.txt
+git commit -m "add feature 1"
+git log --oneline --graph
+git checkout develop
+git log --oneline --graph
+git merge --no-ff feature1
+git log --oneline --graph
+git branch -d feature1
+git log --oneline --graph
+git checkout -b feature2
+git log --oneline --graph
+echo "feature 2 wip" >> fileA.txt
+cat fileA.txt
+git add fileA.txt
+git commit -m "feature 2 wip"
+git log --oneline --graph
+git checkout develop
+cat fileA.txt
+git checkout -b release1
+git log --oneline --graph
+sed -i "1s/.*/feature 1 with 1 bug/" fileA.txt
+cat fileA.txt
+git add fileA.txt
+git commit -m "fix feature 1 bug X"
+git log --oneline --graph --all
+git checkout master
+git merge --no-ff release1
+git log --oneline --graph --all
+git tag "v1.00"
+git log --oneline --graph --all
+git checkout develop
+git merge --no-ff release1
+git log --oneline --graph --all
+git branch -d release1
+git log --oneline --graph --all
+git checkout feature2
+cat fileA.txt
+git rebase HEAD
+git checkout feature2
+git log --oneline --graph --all
+git rebase develop
+cat fileA.txt
+nano fileA.txt
+cat fileA.txt
+git add fileA.txt
+git rebase --continue
+git log --oneline --graph --all
+git checkout v1.00
+git log --oneline --graph --all
+git checkout -b hotfix1
+git log --oneline --graph --all
+cat fileA.txt
+sed -i "1s/.*/feature 1/" fileA.txt
+cat fileA.txt
+git commit -m "fix feature 1 bug Y"
+git add fileA.txt
+git commit -m "fix feature 1 bug Y"
+git log --oneline --graph --all
+git checkout master
+git merge --no-ff hotfix1
+git log --oneline --graph --all
+git tag "v1.01"
+git log --oneline --graph --all
+git checkout develop
+git merge --no-ff hotfix1
+git log --oneline --graph --all
+git branch -d hotfix1
+git log --oneline --graph --all
+git checkout feature2
+cat fileA.txt
+git rebase develop
+cat fileA.txt
+nano fileA.txt
+git add fileA.txt
+git rebase --continue
+git log --oneline --graph --all
+  
