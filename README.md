@@ -100,4 +100,3 @@ nano fileA.txt
 git add fileA.txt
 git rebase --continue
 git log --oneline --graph --all
-  
