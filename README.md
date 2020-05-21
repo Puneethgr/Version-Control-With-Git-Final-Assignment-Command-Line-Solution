@@ -4,7 +4,7 @@ Coursera course "Version Control with Git" - Solutions for the final assignment 
 Course link: https://www.coursera.org/learn/version-control-with-git/
 
 Question:
-Create a Git repository with the commits shown in the commit graph and table below. This
+Create a Git repository with the commits shown in the commit graph. This
 simulates a team building and releasing a product using the Gitflow workflow. 
 
 ![questionimage](https://user-images.githubusercontent.com/36910708/82347222-fe053900-9a14-11ea-8798-d160860f1e9b.PNG)
