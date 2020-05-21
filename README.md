@@ -10,6 +10,8 @@ simulates a team building and releasing a product using the Gitflow workflow.
 ![questionimage](https://user-images.githubusercontent.com/36910708/82347222-fe053900-9a14-11ea-8798-d160860f1e9b.PNG)
 
 
-Final answer:
+Final answer: 
 
-![solutionimage](https://user-images.githubusercontent.com/36910708/82347557-694f0b00-9a15-11ea-9695-5730d88e0456.PNG)
+![finalsolution](https://user-images.githubusercontent.com/36910708/82530735-960d3a80-9b5b-11ea-80bd-023addfd2579.PNG)
+
+(Note that the left-most branch is "develop" branch, NOT "master" branch)
