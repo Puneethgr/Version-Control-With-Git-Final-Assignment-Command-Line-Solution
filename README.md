@@ -14,4 +14,4 @@ Final answer:
 
 ![finalsolution](https://user-images.githubusercontent.com/36910708/82530735-960d3a80-9b5b-11ea-80bd-023addfd2579.PNG)
 
-(Note that the left-most branch is "develop" branch, NOT "master" branch)
+NOTE: In the above graph, the left-most branch is the "develop" branch, NOT the "master" branch.
