@@ -1,5 +1,6 @@
 # Version-Control-With-Git-Final-Assignment-Command-Line-Solution
-Coursera course "Version Control with Git" - Solutions for the final assignment (Using command-line) 
+
+Final assignment solution for Coursera course "Version Control with Git" (Using command-line) 
 
 Course link: https://www.coursera.org/learn/version-control-with-git/
 
